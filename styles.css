@@ -1,0 +1,116 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+.container {
+max-width: 600px;
+margin: 30px auto;
+padding: 20px;
+}
+
+.header {
+text-align: center;
+color: #333;
+font-size: 24px;
+margin-bottom: 20px;
+}
+
+.form {
+padding: 15px;
+background-color: #f5f7f5;
+border: 1px solid #ddd;
+border-radius: 5px;
+}
+
+.field {
+margin-bottom: 15px;
+}
+
+.input, .textarea {
+width: 100%;
+padding: 8px;
+border: 1px solid #ccc;
+border-radius: 4px;
+box-sizing: border-box;
+}
+
+.textarea {
+height: 100px;
+}
+
+.button {
+width: 100%;
+padding: 10px;
+background-color: #5cb85c;
+color: white;
+border: none;
+border-radius: 4px;
+font-size: 16px;
+cursor: pointer;
+}
+
+.button:hover {
+background-color: #4cae4c;
+}
+
+.toggle-button {
+width: 100%;
+padding: 8px;
+background-color: #6c757d;
+color: white;
+border: none;
+border-radius: 4px;
+font-size: 14px;
+cursor: pointer;
+margin-top: 15px;
+}
+
+.toggle-button:hover {
+background-color: #5a6268;
+}
+
+.confirmation {
+margin-top: 15px;
+padding: 10px;
+background-color: #dff0d8;
+border: 1px solid #3c763d;
+border-radius: 5px;
+text-align: center;
+}
+
+.confirmation-text {
+color: #3c763d;
+margin: 0;
+font-size: 16px;
+}
+
+.submitted-section {
+margin-top: 20px;
+max-height: 200px;
+overflow-y: auto;
+padding: 10px;
+background-color: #f8f9fa;
+border: 1px solid #ddd;
+border-radius: 5px;
+}
+
+.submitted-header {
+color: #333;
+font-size: 20px;
+margin-bottom: 10px;
+}
+
+.list {
+list-style: none;
+padding: 0;
+}
+
+.list-item {
+padding: 10px;
+border-bottom: 1px solid #ddd;
+}
+.no-data {
+color: #666;
+text-align: center;
+}
