@@ -1,4 +1,6 @@
-const { useState } = React;
+import React, { useState } from 'react';
+import ReactDOM from 'react-dom';
+
 function App() {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
@@ -8,6 +10,7 @@ function App() {
   );
   const [showConfirmation, setShowConfirmation] = useState(false);
   const [showSubmitted, setShowSubmitted] = useState(false);
+
   const handleSubmit = (e) => {
     e.preventDefault();
     if (!name || !email || !message) {
@@ -30,10 +33,12 @@ function App() {
       setMessage("");
     }, 2000);
   };
+
   const toggleSubmitted = () => {
     setShowSubmitted(!showSubmitted);
   };
-return (
+
+  return (
     <div className="container">
       <h2 className="header">Contact Us</h2>
       <form onSubmit={handleSubmit} className="form">
@@ -94,4 +99,5 @@ return (
     </div>
   );
 }
+
 ReactDOM.render(<App />, document.getElementById("root"));
